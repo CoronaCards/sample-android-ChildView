@@ -24,5 +24,6 @@
             android:translationY="100px"
             class="com.ansca.corona.CoronaView"
             android:id="@+id/view_inner" />
+
         </view>
 </RelativeLayout>
