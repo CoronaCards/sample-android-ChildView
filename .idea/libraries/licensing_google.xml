@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="licensing-google">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/licensing-google.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
