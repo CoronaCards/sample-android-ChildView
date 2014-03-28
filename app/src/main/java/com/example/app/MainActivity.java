@@ -64,10 +64,10 @@ public class MainActivity extends ActionBarActivity {
 
             mBigCoronaView = (CoronaView)rootView.findViewById(R.id.view_outer);
             mSmallCoronaView = (CoronaView)rootView.findViewById(R.id.view_inner);
+            mBigCoronaView.init("Fishies/");
+            mSmallCoronaView.init("Fishies/");
             mBigCoronaView.setZOrderMediaOverlay(false);
             mSmallCoronaView.setZOrderMediaOverlay(true);
-            mBigCoronaView.setPath("Fishies/");
-            mSmallCoronaView.setPath("Fishies/");
 
             return rootView;
         }
@@ -75,22 +75,22 @@ public class MainActivity extends ActionBarActivity {
         @Override
         public void onResume() {
             super.onResume();
-            mSmallCoronaView.onResume();
-            mBigCoronaView.onResume();
+            mSmallCoronaView.resume();
+            mBigCoronaView.resume();
         }
 
         @Override
         public void onPause() {
             super.onPause();
-            mSmallCoronaView.onPause();
-            mBigCoronaView.onPause();
+            mSmallCoronaView.pause();
+            mBigCoronaView.pause();
         }
 
         @Override
         public void onDestroy() {
             super.onDestroy();
-            mSmallCoronaView.onDestroy();
-            mBigCoronaView.onDestroy();
+            mSmallCoronaView.destroy();
+            mBigCoronaView.destroy();
         }
     }
 }

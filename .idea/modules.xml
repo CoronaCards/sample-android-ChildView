@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ChildView.iml" filepath="$PROJECT_DIR$/ChildView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-android-ChildView.iml" filepath="$PROJECT_DIR$/sample-android-ChildView.iml" />
     </modules>
   </component>
 </project>
