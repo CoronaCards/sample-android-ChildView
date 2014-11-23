@@ -17,6 +17,12 @@ The contents of the `CoronaView` are determined via Lua. In this project, the `C
 
 The sample expects the Corona .jar files to be placed in app/libs and the Corona .so files to be placed in app/src/main/jniLibs.
 
+See [CoronaCards Setup (Android)](http://docs.coronalabs.com/coronacards/android/project.html) for more info.
+
+
 # Requirements
+
+See [System Requirements](http://docs.coronalabs.com/coronacards/android/project.html#system-requirements).
+
 
 # Version Notes
