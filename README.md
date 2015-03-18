@@ -1,4 +1,4 @@
-sample-android-TabChildView
+sample-android-ChildView
 =======================
 
 This example shows you how to __embed__ a CoronaView within a RelativeLayout.  Another CoronaView is embeded inside the CoronaView.
