@@ -1,7 +1,7 @@
 sample-android-ChildView
 =======================
 
-This example shows you how to __embed__ a CoronaView within a RelativeLayout.  Another CoronaView is embeded inside the CoronaView.
+This example shows you how to __embed__ a CoronaView within a RelativeLayout.  Another CoronaView is embedded inside the CoronaView.
 
 # Code Overview
 

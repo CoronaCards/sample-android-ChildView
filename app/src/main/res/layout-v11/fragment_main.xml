@@ -19,13 +19,9 @@
         <com.ansca.corona.CoronaView
             android:layout_width="283dp"
             android:layout_height="190dp"
-            android:paddingStart="0dp"
-            android:paddingLeft="66dp"
-            android:paddingTop="66dp"
-            android:id="@+id/view_inner"
-            tools:ignore="RtlSymmetry"
-            android:paddingRight="0dp"
-            android:paddingEnd="0dp" />
+            android:translationX="66dp"
+            android:translationY="66dp"
+            android:id="@+id/view_inner"/>
 
         </com.ansca.corona.CoronaView>
 </RelativeLayout>
