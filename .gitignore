@@ -1,5 +1,7 @@
 # From: http://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project
 
+**/license.ccdata
+
 #built application files
 *.apk
 *.ap_
@@ -29,10 +31,11 @@ Thumbs.db
 
 # Android Studio
 *.iml
-.idea
+.idea/
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
 build/
 
 #NDK
 obj/
+

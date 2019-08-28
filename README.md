@@ -1,5 +1,5 @@
 sample-android-ChildView
-=======================
+========================
 
 This example shows you how to __embed__ a CoronaView within a RelativeLayout.  Another CoronaView is embedded inside the CoronaView.
 
@@ -15,7 +15,7 @@ The contents of the `CoronaView` are determined via Lua. In this project, the `C
 
 # Setup
 
-The sample expects the Corona .jar files to be placed in app/libs and the Corona .so files to be placed in app/src/main/jniLibs.
+The sample expects the `CoronaCards.aar` file to be placed in app/libs.
 
 See [CoronaCards Setup (Android)](http://docs.coronalabs.com/coronacards/android/project.html) for more info.
 
@@ -26,3 +26,5 @@ See [System Requirements](http://docs.coronalabs.com/coronacards/android/project
 
 
 # Version Notes
+
+2019, August 30: project was updated to use modern android plugin and AAR distribution of Corona Cards 
